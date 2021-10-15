@@ -27,12 +27,6 @@ public class RegistrationWithPageObjectsTests extends TestBase {
 
     RegistrationPage registrationPage = new RegistrationPage();
 
-    @BeforeAll
-    static void configuration() {
-        Configuration.baseUrl = "https://demoqa.com";
-        Configuration.startMaximized = true;
-    }
-
     @Test
     void successfulRegistrationTest() {
 
