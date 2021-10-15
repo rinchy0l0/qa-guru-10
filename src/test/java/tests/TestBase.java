@@ -20,6 +20,7 @@ public class TestBase {
         capabilities.setCapability("enableVideo", true);
 
         Configuration.browserCapabilities = capabilities;
+        Configuration.baseUrl = "https://demoqa.com";
         Configuration.startMaximized = true;
         Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub/";
     }
